@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "id": "onet_31_0",
+      "name": "O*NET 31.0 Database",
+      "organization": "U.S. Department of Labor, Employment and Training Administration",
+      "version": "31.0",
+      "source_url": "https://www.onetcenter.org/database.html",
+      "license": "Creative Commons Attribution 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "This product includes information from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0 license. O*NET® is a trademark of USDOL/ETA. USDOL/ETA has not approved, endorsed, or tested project modifications.",
+      "downloaded_archive": "data/external/onet_db_31_0_text.zip",
+      "derived_output_dir": "data/processed/onet_31_0",
+      "derived_role_crosswalk": "data/processed/onet_31_0/project_role_crosswalk.csv",
+      "intended_use": ["occupation reference", "occupation skill requirements", "task and software vocabulary", "semantic occupation matching"],
+      "limitations": ["Occupation profiles are not live job postings", "O*NET alternate titles can map one project role to multiple occupation codes", "The generated project-role crosswalk requires human review and is not a training label source until approved", "One profile per occupation is not sufficient by itself to train a robust classifier", "No resume records are included"]
+    },
+    {
+      "id": "project_synthetic_demo",
+      "name": "Career Intelligence synthetic demo corpus",
+      "organization": "Project-generated",
+      "version": "1",
+      "source_url": "",
+      "license": "Project-generated",
+      "license_url": "",
+      "attribution": "Synthetic examples created for development; contain no personal data.",
+      "intended_use": ["schema validation", "development smoke tests"],
+      "limitations": ["Not representative", "Not suitable for model training or evaluation claims"]
+    },
+    {
+      "id": "djinni_english_jobs_and_profiles",
+      "name": "Djinni Recruitment Dataset (English subsets)",
+      "organization": "Djinni; distributed by lang-uk",
+      "version": "Pinned Hugging Face dataset revisions in config/djinni_datasets.json",
+      "source_url": "https://huggingface.co/collections/lang-uk/djinni-recruitment-dataset",
+      "license": "MIT (as declared by the dataset and its paper)",
+      "license_url": "https://opensource.org/license/mit",
+      "attribution": "Drushchak, Nazarii and Mariana Romanyshyn. 2024. Introducing the Djinni Recruitment Dataset: A Corpus of Anonymized CVs and Job Postings. UNLP @ LREC-COLING 2024. The dataset card thanks Djinni for providing the dataset.",
+      "derived_output_dir": "data/processed/djinni_en",
+      "intended_use": ["job matching development", "resume parsing and skill-extraction development"],
+      "limitations": ["English IT-sector subset only", "Job descriptions have source role titles; project-role mappings are exact-alias-only and may be blank", "Dataset paper describes PII removal but heuristic redaction is not a guarantee of de-identification", "Keep candidate profiles local and git-ignored; review privacy obligations before reuse or deployment", "Do not use this corpus as the held-out evaluation set"]
+    }
+  ]
+}

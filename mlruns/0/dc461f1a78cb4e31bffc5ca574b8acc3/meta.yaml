@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/ShrutikaDeshmukh/OneDrive%20-%20Vivicta/Desktop/Training/Projects/career-intelligence-platform/mlruns/0/dc461f1a78cb4e31bffc5ca574b8acc3/artifacts
+end_time: 1790945835702
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc461f1a78cb4e31bffc5ca574b8acc3
+run_name: grandiose-yak-133
+run_uuid: dc461f1a78cb4e31bffc5ca574b8acc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790945808012
+status: 3
+tags: []
+user_id: ShrutikaDeshmukh

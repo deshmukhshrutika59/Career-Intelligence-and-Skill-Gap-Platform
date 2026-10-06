@@ -1,0 +1,86 @@
+{
+  "python": {
+    "resources": [
+      {"title": "Python Tutorial", "url": "https://docs.python.org/3/tutorial/", "type": "official_documentation"}
+    ],
+    "project_suggestions": ["Build a resume/job-description text cleaning CLI with tests."]
+  },
+  "scikit-learn": {
+    "resources": [
+      {"title": "scikit-learn User Guide", "url": "https://scikit-learn.org/stable/user_guide.html", "type": "official_documentation"}
+    ],
+    "project_suggestions": ["Train and compare two text classifiers with a held-out macro-F1 report."]
+  },
+  "pytorch": {
+    "resources": [
+      {"title": "PyTorch Tutorials", "url": "https://pytorch.org/tutorials/", "type": "official_tutorial"}
+    ],
+    "project_suggestions": ["Fine-tune a small text classifier and compare it with a scikit-learn baseline."]
+  },
+  "hugging face transformers": {
+    "resources": [
+      {"title": "Hugging Face NLP Course", "url": "https://huggingface.co/learn/nlp-course/", "type": "official_course"}
+    ],
+    "project_suggestions": ["Fine-tune a transformer for role classification and document the split and label mapping."]
+  },
+  "docker": {
+    "resources": [
+      {"title": "Docker Get Started", "url": "https://docs.docker.com/get-started/", "type": "official_tutorial"}
+    ],
+    "project_suggestions": ["Containerize the FastAPI service and run its health check in Compose."]
+  },
+  "kubernetes": {
+    "resources": [
+      {"title": "Kubernetes Tutorials", "url": "https://kubernetes.io/docs/tutorials/", "type": "official_tutorial"}
+    ],
+    "project_suggestions": ["Deploy the API and PostgreSQL to a local Kubernetes cluster with readiness probes."]
+  },
+  "mlflow": {
+    "resources": [
+      {"title": "MLflow Tracking Quickstart", "url": "https://mlflow.org/docs/latest/ml/tracking/", "type": "official_documentation"}
+    ],
+    "project_suggestions": ["Track model parameters, macro-F1, artifacts, and compare experiment runs."]
+  },
+  "fastapi": {
+    "resources": [
+      {"title": "FastAPI Tutorial", "url": "https://fastapi.tiangolo.com/tutorial/", "type": "official_tutorial"}
+    ],
+    "project_suggestions": ["Add typed validation, upload limits, and endpoint tests for one API workflow."]
+  },
+  "postgresql": {
+    "resources": [
+      {"title": "PostgreSQL Tutorial", "url": "https://www.postgresql.org/docs/current/tutorial.html", "type": "official_tutorial"}
+    ],
+    "project_suggestions": ["Store job postings and analysis records with migrations and indexed queries."]
+  },
+  "aws": {
+    "resources": [
+      {"title": "AWS Skill Builder", "url": "https://skillbuilder.aws/", "type": "official_learning"}
+    ],
+    "project_suggestions": ["Deploy the API with managed storage and document cost, security, and monitoring choices."]
+  },
+  "azure": {
+    "resources": [
+      {"title": "Microsoft Learn: Azure", "url": "https://learn.microsoft.com/training/azure/", "type": "official_learning"}
+    ],
+    "project_suggestions": ["Deploy the API with managed storage and document cost, security, and monitoring choices."]
+  },
+  "gcp": {
+    "resources": [
+      {"title": "Google Cloud Training", "url": "https://cloud.google.com/learn/training", "type": "official_learning"}
+    ],
+    "project_suggestions": ["Deploy the API with managed storage and document cost, security, and monitoring choices."]
+  },
+  "communication": {
+    "resources": [
+      {"title": "Toastmasters Public Speaking Resources", "url": "https://www.toastmasters.org/resources/public-speaking-tips", "type": "learning_resource"}
+    ],
+    "project_suggestions": ["Present a short design review explaining model limitations and evidence sources."]
+  },
+  "problem solving": {
+    "resources": [
+      {"title": "Google Technical Writing: Problem-solving and troubleshooting", "url": "https://developers.google.com/tech-writing", "type": "learning_resource"}
+    ],
+    "project_suggestions": ["Write a failure-analysis note for one parser or model issue, including reproduction and validation steps."]
+  }
+}

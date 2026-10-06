@@ -1,0 +1,45 @@
+app:
+  name: career-intelligence-platform
+  version: 0.1.0
+
+paths:
+  raw_resumes: data/raw/resumes
+  raw_jobs: data/raw/job_descriptions
+  processed: data/processed
+  models: models
+
+skills:
+  taxonomy_file: config/skill_taxonomy.json
+
+classical_ml:
+  algorithm: xgboost   # logistic_regression | svm | xgboost
+  tfidf_max_features: 20000
+  test_size: 0.2
+  random_state: 42
+
+deep_learning:
+  base_model: distilbert-base-uncased
+  max_length: 256
+  batch_size: 16
+  epochs: 4
+  learning_rate: 2e-5
+
+recommender:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 10
+  vector_collection_name: job_descriptions
+  hybrid_search:
+    enabled: true
+    dense_weight: 0.6
+    sparse_weight: 0.4
+    rrf_k: 60
+
+genai:
+  provider: ollama
+  default_model: gemma:2b
+  temperature: 0.2
+  max_tokens: 1000
+
+evaluation:
+  precision_at_k: [5, 10]
+  recall_at_k: [5, 10]

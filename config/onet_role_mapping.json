@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "mapping_rules": [
+    {
+      "project_role": "backend_engineer",
+      "alternate_titles": ["backend engineer", "back end engineer"],
+      "related_soc_codes": ["15-1252.00"],
+      "related_basis": "O*NET lists Back End Engineer as an alternate title under Web Developers; Software Developers is included as a second broad related family, not an exact equivalence."
+    },
+    {
+      "project_role": "data_engineer",
+      "alternate_titles": ["data engineer"],
+      "related_soc_codes": [],
+      "related_basis": ""
+    },
+    {
+      "project_role": "data_scientist",
+      "alternate_titles": ["data scientist"],
+      "occupation_soc_codes": ["15-2051.00"],
+      "related_soc_codes": [],
+      "related_basis": ""
+    },
+    {
+      "project_role": "devops_engineer",
+      "alternate_titles": ["devops engineer"],
+      "related_soc_codes": [],
+      "related_basis": ""
+    },
+    {
+      "project_role": "machine_learning_engineer",
+      "alternate_titles": ["machine learning engineer"],
+      "related_soc_codes": [],
+      "related_basis": ""
+    },
+    {
+      "project_role": "nlp_engineer",
+      "alternate_titles": ["nlp engineer"],
+      "related_soc_codes": [],
+      "related_basis": ""
+    }
+  ]
+}

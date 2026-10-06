@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "categories": {
+    "programming_languages": [
+      {"canonical": "python", "aliases": ["python", "python 3", "python3"]},
+      {"canonical": "java", "aliases": ["java"]},
+      {"canonical": "c++", "aliases": ["c++", "cpp", "c plus plus"]},
+      {"canonical": "javascript", "aliases": ["javascript", "js"]},
+      {"canonical": "typescript", "aliases": ["typescript"]},
+      {"canonical": "sql", "aliases": ["sql"]},
+      {"canonical": "r", "aliases": ["r"]},
+      {"canonical": "go", "aliases": ["golang", "go"]},
+      {"canonical": "rust", "aliases": ["rust"]}
+    ],
+    "ml_frameworks": [
+      {"canonical": "scikit-learn", "aliases": ["scikit-learn", "scikit learn", "sklearn"]},
+      {"canonical": "xgboost", "aliases": ["xgboost", "xg boost"]},
+      {"canonical": "lightgbm", "aliases": ["lightgbm", "light gbm"]},
+      {"canonical": "tensorflow", "aliases": ["tensorflow", "tensor flow"]},
+      {"canonical": "pytorch", "aliases": ["pytorch", "py torch"]},
+      {"canonical": "keras", "aliases": ["keras"]}
+    ],
+    "nlp_frameworks": [
+      {"canonical": "spacy", "aliases": ["spacy", "spa cy"]},
+      {"canonical": "nltk", "aliases": ["nltk"]},
+      {"canonical": "hugging face transformers", "aliases": ["hugging face transformers", "transformers"]},
+      {"canonical": "gensim", "aliases": ["gensim"]}
+    ],
+    "data_tools": [
+      {"canonical": "pandas", "aliases": ["pandas"]},
+      {"canonical": "numpy", "aliases": ["numpy"]},
+      {"canonical": "matplotlib", "aliases": ["matplotlib"]},
+      {"canonical": "seaborn", "aliases": ["seaborn"]},
+      {"canonical": "power bi", "aliases": ["power bi", "powerbi"]},
+      {"canonical": "tableau", "aliases": ["tableau"]}
+    ],
+    "mlops": [
+      {"canonical": "mlflow", "aliases": ["mlflow", "ml flow"]},
+      {"canonical": "docker", "aliases": ["docker"]},
+      {"canonical": "kubernetes", "aliases": ["kubernetes", "k8s"]},
+      {"canonical": "airflow", "aliases": ["airflow", "apache airflow"]},
+      {"canonical": "dvc", "aliases": ["dvc"]},
+      {"canonical": "ci/cd", "aliases": ["ci/cd", "ci cd", "continuous integration and continuous deployment"]}
+    ],
+    "backend": [
+      {"canonical": "fastapi", "aliases": ["fastapi", "fast api"]},
+      {"canonical": "flask", "aliases": ["flask"]},
+      {"canonical": "django", "aliases": ["django"]},
+      {"canonical": "node.js", "aliases": ["node.js", "node js"]},
+      {"canonical": "express", "aliases": ["express.js", "express js"]}
+    ],
+    "databases": [
+      {"canonical": "postgresql", "aliases": ["postgresql", "postgres", "postgre sql"]},
+      {"canonical": "mongodb", "aliases": ["mongodb", "mongo db"]},
+      {"canonical": "mysql", "aliases": ["mysql"]},
+      {"canonical": "redis", "aliases": ["redis"]},
+      {"canonical": "elasticsearch", "aliases": ["elasticsearch", "elastic search"]}
+    ],
+    "cloud": [
+      {"canonical": "aws", "aliases": ["aws", "amazon web services"]},
+      {"canonical": "azure", "aliases": ["azure", "microsoft azure"]},
+      {"canonical": "gcp", "aliases": ["gcp", "google cloud platform"]}
+    ],
+    "soft_skills": [
+      {"canonical": "communication", "aliases": ["communication", "verbal communication", "written communication"]},
+      {"canonical": "leadership", "aliases": ["leadership"]},
+      {"canonical": "teamwork", "aliases": ["teamwork", "team work", "collaboration"]},
+      {"canonical": "problem solving", "aliases": ["problem solving", "problem-solving"]},
+      {"canonical": "adaptability", "aliases": ["adaptability"]},
+      {"canonical": "time management", "aliases": ["time management"]}
+    ]
+  }
+}

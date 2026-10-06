@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "role_labels": [
+    "backend_engineer",
+    "data_engineer",
+    "data_scientist",
+    "devops_engineer",
+    "machine_learning_engineer",
+    "nlp_engineer"
+  ]
+}

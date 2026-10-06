@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "kind": "jobs",
+      "id": "lang-uk/recruitment-dataset-job-descriptions-english",
+      "revision": "b56a6054c10f1266a141e37c8df66c79ff2863af",
+      "declared_license": "MIT",
+      "declared_license_url": "https://opensource.org/license/mit",
+      "paper": "https://aclanthology.org/2024.unlp-1.2/",
+      "upstream_source": "Djinni IT job platform",
+      "language": "English",
+      "upstream_rows": 141897,
+      "features_used": ["Position", "Long Description", "Company Name", "Exp Years", "Primary Keyword", "English Level", "Published"]
+    },
+    {
+      "kind": "resumes",
+      "id": "lang-uk/recruitment-dataset-candidate-profiles-english",
+      "revision": "86255174c6c378a2b52cd7e81d79002c64d899a6",
+      "declared_license": "MIT",
+      "declared_license_url": "https://opensource.org/license/mit",
+      "paper": "https://aclanthology.org/2024.unlp-1.2/",
+      "upstream_source": "Djinni IT job platform",
+      "language": "English",
+      "upstream_rows": 210250,
+      "features_used": ["Position", "Moreinfo", "Looking For", "Highlights", "Primary Keyword", "English Level", "Experience Years", "CV"]
+    }
+  ],
+  "privacy_notes": [
+    "The corpus paper describes anonymization and removal of personally identifiable information.",
+    "The importer drops upstream identifiers and redacts email addresses, URLs, and phone-like strings.",
+    "Regex redaction does not guarantee de-identification; imported candidate profiles remain sensitive and must not be committed or published."
+  ]
+}
